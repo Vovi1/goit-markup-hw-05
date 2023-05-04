@@ -870,3 +870,16 @@ transition: border-color var(--transition-dur-and-func );
 .model-close:focus .model-close-btn{
   fill:#434455 ;
 }
+
+/* line================================== */
+.header-line::after {
+    background-color: #404bbf;
+  content: "";
+  height: 4px;
+  width: 48px;;
+  display: block;
+  border-radius: 2px;
+
+  position: absolute;
+  bottom: -3px;
+}

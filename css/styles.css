@@ -69,8 +69,8 @@
     font-style: normal;
     letter-spacing: 0.02em;
     font-size: 16px;
-    /* color: var(--navy-blue); */
-    color: #404bbf;
+    color: var(--navy-blue);
+    
     text-decoration: none;
     transition:var(--ocean) 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -933,6 +933,9 @@ cursor: pointer;
 } */
 
 /* line================================== */
+.header-line{
+  color: var(--ocean);
+}
 .header-line::after {
    
     position: relative;
@@ -943,7 +946,7 @@ cursor: pointer;
   width: 48px;;
   display: block;
   border-radius: 2px;
-
+  
   position: absolute;
   bottom: -3px;
   background-color: #404bbf;

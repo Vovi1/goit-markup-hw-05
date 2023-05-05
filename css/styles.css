@@ -688,6 +688,11 @@ transition: background-color #31d0aa,250ms cubic-bezier(0.4, 0, 0.2, 1) ;
   color :#404bbf;
 transition: border-color #404bbf, 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
+.link-page {
+  fill: currentColor;
+
+}
+
 .link-lead:hover {
   border-color: #404bbf; 
   color: #404bbf; 
@@ -698,15 +703,11 @@ transition: border-color #404bbf, 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
   color: #404bbf; 
 }
 
-.link-page:hover,
-.link-page:focus {
+.link-page:hover svg,
+.link-page:focus svg {
  fill: #404bbf;
 }
 
-.link-page {
-  fill: currentColor;
-
-}
 
 
 /* fotttteeeerrrrrrrrrrrrrrr */
